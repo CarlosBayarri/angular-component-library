@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { ComponentsModule } from '../../projects/components/src/lib/components.module';
+import { ButtonModule } from '../../projects/button/src/lib/button.module';
 
 @NgModule({
   declarations: [
@@ -10,7 +11,8 @@ import { ComponentsModule } from '../../projects/components/src/lib/components.m
   ],
   imports: [
     BrowserModule,
-    ComponentsModule
+    ComponentsModule,
+    ButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -22,6 +22,10 @@
       "components": [
         "dist/components/components",
         "dist/components"
+      ],
+      "button": [
+        "dist/button/button",
+        "dist/button"
       ]
     }
   },

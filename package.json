@@ -9,6 +9,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "create_library": "ng g library components",
+    "create_button_in_library": "ng g lib button",
     "build_library": "ng build components",
     "create_application": "ng g application elements",
     "add_elements_schematics": "ng add @angular/elements --project elements",
